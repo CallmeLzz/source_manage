@@ -1,0 +1,296 @@
+/*Color*/
+@color_black: #000;
+@color_white: #fff;
+@color_orange: #ff9933;
+
+.footer {
+    a {
+        color: @color_black;
+    }
+    a:hover, a:focus {
+        color: @color_orange;
+        text-decoration: none;
+    }
+    
+    /*Footer*/
+    #lms_footer {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+        color: #A5A5A5;
+    }
+    #lms_footer h3 {
+        float:left;
+        width:100%;
+        color: @color_white;
+        font-size: 22px;
+        margin-top: 15px;
+        text-transform: capitalize;
+        margin-bottom: 1.1852em;
+    }
+    .lms_footer_top {
+        width: 100%;
+        float: left;
+        padding: 20px 0px;
+        background: url(../images/bg/bg.png);
+    }
+
+    /*Newsletter*/
+    .lms_newsletter {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .lms_newsletter .form-group {
+        float: left;
+        width: 100%;
+    }
+    .form-control {
+        display: block;
+        height: 40px;
+        font-style: italic;
+        background-color: transparent;
+        border: 1px solid #e1e3e7;
+    }
+    .form-group {
+        position: relative;
+    }
+    .lms_newsletter .form-group .form-control {
+        width: 80%;
+        float: left;
+        border-right: none;
+    }
+    .lms_newsletter .form-group .lms_newsletter_widget_btn {
+        padding: 9px 1px;
+        font-size: 20px;
+        display: inline-block;
+        font-weight: normal;
+        line-height: 1;
+        color: @color_white;
+        text-align: center;
+        background-color: @color_orange;
+        border: 1px solid @color_white;
+        min-width: 65px;
+        border-left: none;
+    }
+    .form-control:hover, .form-control:focus {
+        border-color: @color_orange;
+        outline: 0;
+    }
+
+    /*Blog Category*/
+    .screen-reader-text {
+        clip: rect(1px, 1px, 1px, 1px);
+        position: absolute !important;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+    }
+    .lms_footer_top .postform {
+        display: block;
+        width: 100%;
+        height: 40px;
+        padding: 6px 12px;
+        font-size: 16px;
+        line-height: 1.42857143;
+        color: #9a9a9a;
+        background-color: transparent;
+        border: 1px solid #e1e3e7;
+        -webkit-transition: all 0.3s;
+        background-image: url(../images/select_arrow.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        -webkit-appearance: none;
+    }
+    .lms_footer_top .postform option {
+        color: #333;
+    }
+    .lms_footer_top .postform:focus, .lms_footer_top .postform:hover {
+        border-color: @color_orange;
+        outline: 0;
+        -webkit-transition: all 0.2s;
+    }
+
+    /*Happening Now*/
+    .lms_happening {
+        width: 100%;
+        float: left;
+    }
+    .lms_happy_user {
+        width: 100%;
+        float: left;
+    }
+    .lms_happy_user img {
+        width: 48px;
+        height: 48px;
+        float: left;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .lms_theme_color {
+        color: @color_orange;
+    }
+
+    /*Logo social*/
+    .lms_footer_center {
+        width: 100%;
+        float: left;
+        background: #1a1a1a;
+        padding: 50px 0px 20px 0px;
+    }
+    img {
+        vertical-align: middle;
+        margin-bottom: 15px;
+    }
+    .lms_footer_center .lms_social {
+        margin-top: 35px;
+    }
+    .lms_social {
+        width: 100%;
+        float: left;
+    }
+    .lms_social ul {
+        float: left;
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .lms_social ul li {
+        display: inline-block;
+    }   
+    .lms_social ul li a {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        text-align: center;
+        display: inline-block;
+        border: 1px solid #9ea6b0;
+        color: @color_orange;
+        font-size: 18px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .lms_social ul li a:hover {
+        border-color: @color_orange;
+    }
+    .tooltip.top .tooltip-arrow {
+        border-top-color: @color_orange;
+    }
+    .tooltip-inner {
+        background-color: @color_orange;
+    }  
+
+    /*Recent Course*/
+    .lms_footer_popular_course {
+        width: 100%;
+        float: left;
+    }
+    .lms_footer_popular_course .lms_footer_course {
+        width: 100%;
+        float: left;
+        border: 1px solid #555555;
+        padding: 6px;
+        margin-bottom: 30px;
+    }
+    .lms_footer_popular_course .lms_footer_course img {
+        width: 75px;
+        height: 79px;
+        border: 1px solid #565656;
+        margin-bottom: 0px;
+        float: left;
+        display: inline-block;
+        margin-right: 12px;
+    }
+    .lms_footer_popular_course .lms_footer_course a h4 {
+        margin: 0;
+        padding: 0;
+        color: @color_orange;
+    }
+
+    /*Course Categories*/
+    .lms_footer_course_category {
+        width: 100%;
+        float: left;
+    }
+    .lms_footer_course_category ul li {
+        border-bottom: 1px solid #555555;
+    }
+    .lms_footer_course_category ul li a {
+        line-height: 52px;
+        color: #A5A5A5;
+    }
+    .lms_footer_course_category ul li a:hover {
+        color: @color_orange;
+    }
+    .lms_footer_course_category ul li:last-child {
+        border-bottom: 0;
+    }
+
+    /*Contacts*/
+    .lms_footer_contact {
+        width: 100%;
+        float: left;
+    }
+    .lms_footer_contact .lms_address {
+        margin-top: 30px;
+    }
+    .lms_theme_color {
+        color: @color_orange;
+    }
+    .lms_footer_contact a {
+        color: inherit;
+    }
+    .lms_footer_contact a:hover {
+        color: @color_orange;
+    }
+
+    /*Copyright*/
+    .lms_footer_bottom {
+        width: 100%;
+        float: left;
+        background: #171717;
+        font-size: 13px;
+        text-align: center;
+    }
+    .lms_footer_bottom p {
+        margin-bottom: 0px;
+        padding: 20px 0px;
+    }
+
+    /*Scroll To Top*/
+    .scrollToTop {
+        width: 35px;
+        height: 35px;
+        line-height: 31px;
+        text-align: center;
+        font-size: 20px;
+        color: @color_orange;
+        text-decoration: none;
+        position: fixed;
+        bottom: 40px;
+        left: 40px;
+        border: 1px solid @color_orange;
+        overflow: hidden;
+    }
+    .scrollToTop:hover {
+        color: @color_white;
+        background: @color_orange;
+        text-decoration: none;
+    }
+
+    /* Dành cho điện thoại */
+    @media all and (min-width: 767px) {
+        .image{
+            width: 100%;
+        }
+    }
+
+    /* Dành cho máy tính bảng chiều dọc */
+    @media all and (min-width: 600px) {}
+
+    /* Dành cho máy tính bảng chiều ngang */
+    @media all and (min-width: 1024px) {}
+
+    /* Dành cho màn hình desktop */
+    @media all and (min-width: 1280px) {}
+}
+/* END MODULE TEST */

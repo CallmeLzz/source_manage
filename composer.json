@@ -1,0 +1,12 @@
+{
+    "name": "source/front",
+    "description": "Create overview sample can intergrate other project",
+    "authors": [
+        {
+            "name": "source",
+            "email": "nguyenanhhoanld@gmail.com"
+        }
+    ],
+    "require": {
+    }
+}

@@ -1,0 +1,260 @@
+.footer a {
+  color: #000;
+}
+.footer a:hover,
+.footer a:focus {
+  color: #ff9933;
+  text-decoration: none;
+}
+.footer #lms_footer {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  color: #A5A5A5;
+}
+.footer #lms_footer h3 {
+  float: left;
+  width: 100%;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 15px;
+  text-transform: capitalize;
+  margin-bottom: 1.1852em;
+}
+.footer .lms_footer_top {
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+  background: url(../images/bg/bg.png);
+}
+.footer .lms_newsletter {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+.footer .lms_newsletter .form-group {
+  float: left;
+  width: 100%;
+}
+.footer .form-control {
+  display: block;
+  height: 40px;
+  font-style: italic;
+  background-color: transparent;
+  border: 1px solid #e1e3e7;
+}
+.footer .form-group {
+  position: relative;
+}
+.footer .lms_newsletter .form-group .form-control {
+  width: 80%;
+  float: left;
+  border-right: none;
+}
+.footer .lms_newsletter .form-group .lms_newsletter_widget_btn {
+  padding: 9px 1px;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  background-color: #ff9933;
+  border: 1px solid #fff;
+  min-width: 65px;
+  border-left: none;
+}
+.footer .form-control:hover,
+.footer .form-control:focus {
+  border-color: #ff9933;
+  outline: 0;
+}
+.footer .screen-reader-text {
+  clip: rect(1px,1px,1px,1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.footer .lms_footer_top .postform {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #9a9a9a;
+  background-color: transparent;
+  border: 1px solid #e1e3e7;
+  -webkit-transition: all 0.3s;
+  background-image: url(../images/select_arrow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-appearance: none;
+}
+.footer .lms_footer_top .postform option {
+  color: #333;
+}
+.footer .lms_footer_top .postform:focus,
+.footer .lms_footer_top .postform:hover {
+  border-color: #ff9933;
+  outline: 0;
+  -webkit-transition: all 0.2s;
+}
+.footer .lms_happening {
+  width: 100%;
+  float: left;
+}
+.footer .lms_happy_user {
+  width: 100%;
+  float: left;
+}
+.footer .lms_happy_user img {
+  width: 48px;
+  height: 48px;
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer .lms_theme_color {
+  color: #ff9933;
+}
+.footer .lms_footer_center {
+  width: 100%;
+  float: left;
+  background: #1a1a1a;
+  padding: 50px 0px 20px 0px;
+}
+.footer img {
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+.footer .lms_footer_center .lms_social {
+  margin-top: 35px;
+}
+.footer .lms_social {
+  width: 100%;
+  float: left;
+}
+.footer .lms_social ul {
+  float: left;
+  width: 100%;
+  margin-left: 0px !important;
+}
+.footer .lms_social ul li {
+  display: inline-block;
+}
+.footer .lms_social ul li a {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #9ea6b0;
+  color: #ff9933;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.footer .lms_social ul li a:hover {
+  border-color: #ff9933;
+}
+.footer .tooltip.top .tooltip-arrow {
+  border-top-color: #ff9933;
+}
+.footer .tooltip-inner {
+  background-color: #ff9933;
+}
+.footer .lms_footer_popular_course {
+  width: 100%;
+  float: left;
+}
+.footer .lms_footer_popular_course .lms_footer_course {
+  width: 100%;
+  float: left;
+  border: 1px solid #555555;
+  padding: 6px;
+  margin-bottom: 30px;
+}
+.footer .lms_footer_popular_course .lms_footer_course img {
+  width: 75px;
+  height: 79px;
+  border: 1px solid #565656;
+  margin-bottom: 0px;
+  float: left;
+  display: inline-block;
+  margin-right: 12px;
+}
+.footer .lms_footer_popular_course .lms_footer_course a h4 {
+  margin: 0;
+  padding: 0;
+  color: #ff9933;
+}
+.footer .lms_footer_course_category {
+  width: 100%;
+  float: left;
+}
+.footer .lms_footer_course_category ul li {
+  border-bottom: 1px solid #555555;
+}
+.footer .lms_footer_course_category ul li a {
+  line-height: 52px;
+  color: #A5A5A5;
+}
+.footer .lms_footer_course_category ul li a:hover {
+  color: #ff9933;
+}
+.footer .lms_footer_course_category ul li:last-child {
+  border-bottom: 0;
+}
+.footer .lms_footer_contact {
+  width: 100%;
+  float: left;
+}
+.footer .lms_footer_contact .lms_address {
+  margin-top: 30px;
+}
+.footer .lms_theme_color {
+  color: #ff9933;
+}
+.footer .lms_footer_contact a {
+  color: inherit;
+}
+.footer .lms_footer_contact a:hover {
+  color: #ff9933;
+}
+.footer .lms_footer_bottom {
+  width: 100%;
+  float: left;
+  background: #171717;
+  font-size: 13px;
+  text-align: center;
+}
+.footer .lms_footer_bottom p {
+  margin-bottom: 0px;
+  padding: 20px 0px;
+}
+.footer .scrollToTop {
+  width: 35px;
+  height: 35px;
+  line-height: 31px;
+  text-align: center;
+  font-size: 20px;
+  color: #ff9933;
+  text-decoration: none;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  border: 1px solid #ff9933;
+  overflow: hidden;
+}
+.footer .scrollToTop:hover {
+  color: #fff;
+  background: #ff9933;
+  text-decoration: none;
+}
+@media all and (min-width: 767px) {
+  .footer .image {
+    width: 100%;
+  }
+}
